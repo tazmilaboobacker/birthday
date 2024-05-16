@@ -1,0 +1,64 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 28%, rgba(196,204,205,1) 55%, rgba(0,212,255,1) 100%);
+    color: #ffffff ;
+    text-shadow: 2px 2px 2px black;
+   
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#face{
+    width: 120px;
+    border-radius: 50%; 
+    border: 6px solid #EFB0C9;
+}
+
+#age, #date{
+    border: none;
+    border-radius: 30px;
+    background-color: #EFB0C9 ;
+    width: 200px; 
+    padding: 5px 5px;
+
+}
+#date{
+    margin: 0px;
+}
+.gift-title
+{
+    margin-top:  50px;
+    margin-bottom: 10px;
+}
+.gift-img,.giftim,.gifti,.giti
+{
+   background-image: url(gift-cover.jpg);
+   background-size: cover;
+   width: 400px;
+   border-radius: 10px;
+   border: 5px solid white;
+   margin: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
+}
+.gift-img:hover{
+    background-image: url(https://i.pinimg.com/originals/5b/6b/61/5b6b619b053ff25694baf721047884a0.gif);
+}
+
+.giftim:hover{
+    background-image: url(https://media1.tenor.com/images/6876b899d0b4de74ed6ec6d768b02828/tenor.gif?itemid=16227957);
+}
+.gifti:hover
+{
+    background-image: url(https://media.tenor.com/VYkosGQaXXAAAAAd/vadivelu-claps.gif) ;
+}
+.giti:hover{
+    background-image: url(https://media1.tenor.com/images/b8be18aebb3f1719f54d043735d675aa/tenor.gif?itemid=8109107);
+}
